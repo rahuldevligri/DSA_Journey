@@ -3,7 +3,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class Q1_LargestElemet {
+public class Q01_LargestElemet {
     public int findLargestELemet(int[] arr){
         int max = arr[0];
         for (int i : arr)
@@ -21,7 +21,7 @@ public class Q1_LargestElemet {
             System.out.print("Enter element at: " + i+1);
             arr[i] = sc.nextInt();
         }
-        Q1_LargestElemet q1 = new Q1_LargestElemet();
+        Q01_LargestElemet q1 = new Q01_LargestElemet();
         System.out.println("Largest ELement: " + q1.findLargestELemet(arr));
     }
 }
