@@ -1,5 +1,5 @@
 /* Find the largest element in an array? */
-package Arrays;
+package Arrays.Questions;
 
 import java.util.Scanner;
 

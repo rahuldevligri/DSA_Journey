@@ -1,5 +1,5 @@
 /* Count Occurrences of an element */
-package Arrays;
+package Arrays.Questions;
 
 public class Q04_Count_Occurrences {
     public int countOccurrences(int[] arr, int targetElement){

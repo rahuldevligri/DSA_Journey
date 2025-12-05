@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Questions;
 
 public class Q07_MoveZeroToEnd {
     private static int[] move0ToEnd(int[] arr){

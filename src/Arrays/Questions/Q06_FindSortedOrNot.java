@@ -1,5 +1,5 @@
 /* check array is sorted or not */
-package Arrays;
+package Arrays.Questions;
 
 public class Q06_FindSortedOrNot {
     private boolean isSorted(int[] arr){

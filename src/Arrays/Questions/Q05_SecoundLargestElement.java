@@ -1,5 +1,5 @@
 /* Find Secound Largest Element in an array? */
-package Arrays;
+package Arrays.Questions;
 
 public class Q05_SecoundLargestElement {
     public int secondLargestElement(int[] arr) {

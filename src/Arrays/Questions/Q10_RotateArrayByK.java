@@ -1,7 +1,5 @@
 /* Rotate Array by K position? */
-package Arrays;
-
-import java.util.Arrays;
+package Arrays.Questions;
 
 public class Q10_RotateArrayByK {
     //type1

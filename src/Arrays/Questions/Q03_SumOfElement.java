@@ -1,18 +1,15 @@
-/* Reverse an Array */
-package Arrays;
+/* SUm of element in an Array */
+package Arrays.Questions;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q02_ReverseArray {
-    public int[] reverseArray(int[] arr){
-        int temp = 0;
-        for(int i = 0; i < arr.length / 2;i++){
-            temp = arr[0];
-            arr[i] = arr[arr.length-i-1];
-            arr[arr.length-i-1] = temp;
+public class Q03_SumOfElement {
+    public int sum(int[] arr){
+        int sum = 0;
+        for (int s : arr) {
+            sum += s;
         }
-        return arr;
+        return sum;
     } //⭐ Time Complexity = O(n) & ⭐ Space Complexity = O(1)
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -24,7 +21,7 @@ public class Q02_ReverseArray {
             System.out.print("Enter element at " + i+1 + ": ");
             arr[i] = sc.nextInt();
         }
-        Q02_ReverseArray q2 = new Q02_ReverseArray();
-        System.out.println(Arrays.toString(q2.reverseArray(arr)));
+        Q03_SumOfElement q3 = new Q03_SumOfElement();
+        System.out.println("Sum: " + q3.sum(arr));
     }
 }
